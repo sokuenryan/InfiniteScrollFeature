@@ -1,0 +1,105 @@
+
+Class Based Component
+A functional component has a lot less functionality
+there are plenty of things a functional component can do that a 
+class based conponent cannot:
+
+Example:
+State
+Lifecycle hooks
+
+if I know that I'm going to use state and I need to react to changes, use forms, etc
+I should use a class component. 
+
+if I'm just rendering components, I need to use functional component. 
+
+functional components are "dumb componets"
+class based components require a little more brainwork.
+
+
+Constructor:
+gives you the ability to set up some processes automatcally
+such as setting data
+
+sets an inital state
+any custom functions that you want to utilize
+
+you can only use a Constructor inside a class component
+built in keyword
+
+Instantiated:
+to take a class a definition and make a real life version of inital
+and render it on the page. 
+
+Props:
+It is an entire object
+if you pass in ten items they will all be a key and a pair
+
+When working with Props:
+Define the list of Props
+pass data to them
+pass in "props" to the fuction component
+call "props.url" or whichever property title is maybe it's "props.title"
+
+**Used to pass in data to a child component
+
+react State:
+More complex
+it's the state of your component
+related to data in some form or another
+
+DEEP DIVE:
+Component Based Design
+A series of connected components:
+examples of components: sidebars, buttons, navigation bars
+divide and conquer
+
+If you have a component that needs to use state you need to use 
+class components
+It's helps keep track of users through the system
+
+"This"
+
+API's 
+Application Programming Interface
+
+Allows you to have a direct communication line to a outside server
+or application. 
+
+STEPS TO USE REFS:
+1. Defining REFS (create a ref inside the constructor (this.thumbRef/bannerRef/logoRef)so you can call it anywhere)
+2. Place inside the props (handleSubmit)
+3. Tell REACT what we are trying to reference (dropzone)
+
+CRUD
+Stands for:
+Create Read Update Delete
+
+op : 1con ? 2con 
+
+What is Destructuring?
+it's basically shorthand so you don't have to do 
+something like this:
+
+const id = someObject.id;
+const content = someObject.content
+so on and so forth
+
+** it basically shorthand syntax that allows us to 
+reference multiple elements very easily. 
+
+3 methods of the infinite scroll feature:
+
+1. Window.innerHeight
+    the height in pixels of the browser window viewport, including the scrollbar
+    In other wordsk, it's the size and/or height of the browser window
+
+2. Element.scrollTop
+    gets or sets the number of pixels that an element's content
+    is scrolled vertically. 
+        side note: if you want to send the user to a specfic part of the 
+        screen the 'get' and 'set' inclusion can really help with that. 
+
+3. .offsetHeight 
+Total height of the entire document, not just the browser window, but how 
+tall the enire document is.
