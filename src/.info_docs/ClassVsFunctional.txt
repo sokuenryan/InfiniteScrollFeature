@@ -91,8 +91,8 @@ reference multiple elements very easily.
 3 methods of the infinite scroll feature:
 
 1. Window.innerHeight
-    the height in pixels of the browser window viewport, including the scrollbar
-    In other wordsk, it's the size and/or height of the browser window
+    the height in pixels of the browser or window viewport, including the scrollbar
+    In other words, it's the size and/or height of the browser window
 
 2. Element.scrollTop
     gets or sets the number of pixels that an element's content
@@ -103,3 +103,54 @@ reference multiple elements very easily.
 3. .offsetHeight 
 Total height of the entire document, not just the browser window, but how 
 tall the enire document is.
+
+setState: 
+this.setState is ACTUALLY an ASYNCHRONUS event. 
+We cannot be confident that when we call setState that it will not be called imiedietly 
+it may have a delay. 
+
+if you are passing props up to another component, it will not happen instantly. 
+but if you pass in a SECOND ARGUMENT you can tell it to wait for state to be updated 
+and do 'other stuff' so you don't end up with two different versions. 
+
+"https://zkoryami.devcamp.space/portfolio/portfolio_blogs",
+
+
+what is a Base 64 image "encoder"?
+it's basically a very long string that the browser can read as an image
+
+what is file reader?
+Allows us to perfrom and process a base 64 image encoder
+
+what is a JavaScript Promise?
+A Promise is an object representing the eventual completion
+or failure of an asynchronous operation.
+
+asynchronous defined:
+of or requiring a form of computer control timing protocol
+in which a specific operation begins upon receipt of 
+an indication (signal) that the preceding operation has been completed.
+
+What does "blocksFromHtml" do? 
+In the instance of splitting blocks it returns an object, so we can use 
+deconstructering to do that. 
+
+Authorization vs Authentication
+
+Authentication
+ is the actual process of logging in and passing up to the server
+
+Authorization 
+is where you set up your permissions. 
+    What you can or cannot log in. 
+
+One has to do with specfics and withCredentials
+the other has to do with processes and access or deniablility
+
+Lazy Loading
+When you have a function that runs only runs when a certain event occurs, 
+it stops JavaScript from letting it run automatcally. 
+
+Filter function
+allows you to pick and choose which values you want to add to the array that 
+you are creating
